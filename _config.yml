@@ -1,0 +1,37 @@
+markdown: redcarpet
+highlighter: pygments
+permalink: blog/:year/:month/:day/:title.html
+paginate: 10
+paginate_path: page/:num
+encoding: "utf-8"
+future: true
+lsi: false
+safe: true
+
+redcarpet:
+    extensions:
+        - with_toc_data
+        - hard_wrap
+        - no_intra_emphasis
+        - tables
+        - fenced_code_blocks
+        - autolink
+
+blog:
+    name: LiangYangTao Blog # 博客名称
+    description: 专注所以专业 # 博客描述
+    title: 梁杨桃的博客 # 网页标题
+    url: liangyangtao.github.io # 博客地址
+    duoshuo: liangyangtao  # 多说ID
+    tongji: 6337510&castk=7b0e7vb70319322eed357 # 百度统计ID
+    qiniu: # 七牛云地址
+author:
+    name: 梁杨桃 # 作者名称
+    email: 674613438@qq.com # 邮箱地址
+    weibo: http://weibo.com/u/2478993465 # 微博地址
+    github: https://github.com/liangyangtao # GitHub地址
+    qq: 674613438
+    logo: /res/img/icon.png # logo地址
+    douban:
+        name:    # 豆瓣地址名称
+        key:           # 豆瓣API Key

@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+Sitemap: http://liangyangtao.github.io/sitemap.txt
+
