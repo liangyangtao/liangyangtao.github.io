@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaWEB开发（三）【struts_Spring_demo】
+title:  JAVAWEB开发（三）【struts_Spring_配置】
 category: Java基础
 date: 2015-12-07
 ---
@@ -35,7 +35,7 @@ date: 2015-12-07
 
 
 
-     等待服务启动以后
+   等待服务启动以后
 
   ![安装MyEclipse插件](/res/img/blogimg/20151207/20151207151506.png)
 
@@ -67,7 +67,7 @@ date: 2015-12-07
   ![安装MyEclipse插件](/res/img/blogimg/20151207/20151207152926.png)
 
 
-{% highlight  xml%}
+{% highlight  %}
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
