@@ -67,7 +67,7 @@ date: 2015-12-07
   ![安装MyEclipse插件](/res/img/blogimg/20151207/20151207152926.png)
 
 >
-{% highlight  %}
+{% highlight java %}
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -244,7 +244,7 @@ date: 2015-12-07
 
 ## 添加log4j.properties 日志配置文件
 >
-{% highlight %}
+{% highlight java %}
 log4j.rootLogger=INFO,A1,A2,DEBUG
 log4j.appender.A1=org.apache.log4j.ConsoleAppender
 log4j.appender.A1.Threshold=INFO
@@ -273,7 +273,7 @@ log4j.logger.java.sql.ResultSet=DEBUG
 
 ### 添加struts 配置文件struts.xml
 >
-{% highlight %}
+{% highlight java %}
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
 <struts>
@@ -334,7 +334,7 @@ log4j.logger.java.sql.ResultSet=DEBUG
 ## 添加Spring 配置文件
 
 >
-{% highlight %}
+{% highlight java %}
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
@@ -431,7 +431,7 @@ log4j.logger.java.sql.ResultSet=DEBUG
 ## 添加jdbc.properties
 
 >
-{% highlight %}
+{% highlight java %}
 
 database.driverClassName =com.mysql.jdbc.Driver
 database.url =jdbc:mysql://localhost:3306/apartment_ms?autoReconnect=true&amp;characterEncoding=UTF-8
@@ -460,7 +460,7 @@ database.testConnectionOnCheckout=true
 ## 添加mybatis.xml
 
 >
-{% highlight %}
+{% highlight java %}
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration
     PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
@@ -482,8 +482,9 @@ database.testConnectionOnCheckout=true
 
   ![安装MyEclipse插件](/res/img/blogimg/20151207/20151207154043.png)
 
+
 >
-{% highlight %}
+{% highlight java %}
 
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
