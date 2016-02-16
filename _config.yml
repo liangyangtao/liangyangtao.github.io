@@ -8,14 +8,20 @@ future: true
 lsi: false
 safe: true
 
-redcarpet:
-    extensions:
-        - with_toc_data
-        - hard_wrap
-        - no_intra_emphasis
-        - tables
-        - fenced_code_blocks
-        - autolink
+kramdown:
+  input: GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+    - with_toc_data
+    - hard_wrap
+    - no_intra_emphasis
+    - tables
+    - fenced_code_blocks
+  #use_coderay: true
+  #syntax_highlighter: rouge
+
 
 blog:
     name: LiangYangTao Blog # 博客名称
