@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 category: Java基础
 title: CountDownLatch_CyclicBarrier_Semaphore
 date: 2016-02-15
