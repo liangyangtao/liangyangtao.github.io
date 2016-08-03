@@ -66,6 +66,8 @@ _posts文件夹下的markdown文件的layout项改为`post`，使用简版页面
 把你的博客推送到GitHub或者其它支持Jekyll的代码托管网站就可以了。  
 具体可以到[Jekyll官网](http://jekyllrb.com/)或[GitHub Pages](https://pages.github.com/)查看详细教程。
 
+##
+
 
 ## 许可证
 
